@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+     <title>Noah Stuff</title>
+     <style>
+     body{
+         background-color: white;
+     }
+     input{
+         color: red;
+         border: double;
+         text-shadow: 1px 1px black;
+     }
+     h1{
+     text-shadow: 1px 1px blue;    
+     }
+         ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #e60000;
+}
+li {
+float: left;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 15px;
+text-decoration: none;
+}
+li a:hover {
+background-color: #111;}
+     </style>
+    <script>
+          function checkPassword(){
+            var password = document.getElementById("passwordBox");
+            var passwordText = password.value;
+            if(passwordText == "code4life"){
+                return true;
+            }
+            alert("Access Denied!!!  (>_<)");
+            return false;
+        } 
+    </script>
+
+
+ </head>
+ <body>
+     <ul>
+<li><a href="index.html">Home Page</a></li>
+<li><a href="Luke.html">Luke's Section</a></li>
+<li><a href="Noah.html">Noah's Section</a></li>
+<li><a href="Roger.html">Roger's Section</a></li>
+<li><a href="Shrey.html">Shrey's Section</a></li>
+<li><a href="Niko.html">Niko's section</a></li>
+<li><a href="Bryce.html">Bryce's Section</a></li>
+<li><a href="Kai.html">Kai's Section</a></li>
+<li><a href="Jordan.html">Jordan's Section</a></li>
+<li><a href="Nate.html">Nate's Section</a></li>
+</ul>
+     <h1>Welcome to Luke's Second Page!!</h1>
+     <h2>Please enter the correct password to proceed and click the link.</h2>
+     <input id="passwordBox" type="password"/>
+     <a href="Luke3.html" onclick="return checkPassword();">The Link</a>
+ </body>
+ </html>
