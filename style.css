@@ -41,5 +41,5 @@ li a:hover {
 hr {
   margin-left: 200px;
   margin-right: 200px;
-  border-top: 5px dashed;
+  border-top: 2px dashed red;
 }
