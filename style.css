@@ -34,5 +34,5 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: rgb(10, 43, 18);
+  background-color: rgba(10, 61, 23, 0.678);
 }
