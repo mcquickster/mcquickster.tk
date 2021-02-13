@@ -16,6 +16,7 @@ h1{
   text-align: center;
 
 }
+/* start menubar css */
 #menuBar {
   list-style-type: none;
   margin: 0;
@@ -35,4 +36,9 @@ li a {
 }
 li a:hover {
   background-color:darkred;
+}
+/* end menubar css */
+hr {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
