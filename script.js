@@ -8,6 +8,12 @@ function GreetFunction() {
         alert("Hi " + Name2 + "! Welcome to mcquickster.tk");
     }
     }
+    function likeWebsite() {
+        alert("Thanks, we hope you come back soon!")
+    }
+    function hateWebsite() {
+        alert("Judge not, lest you be judged")
+    }
 
 
 
