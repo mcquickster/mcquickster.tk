@@ -4,7 +4,9 @@ function GreetFunction() {
     if(Name2.value == ""){
         alert("Pleas enter your name, you bum!");
     }
-    alert("Hi " + Name2 + "! Welcome to mcquickster.tk");
+    else {
+        alert("Hi " + Name2 + "! Welcome to mcquickster.tk");
+    }
     }
 
 
