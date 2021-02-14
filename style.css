@@ -27,14 +27,14 @@ h1{
 li {
   float: left;
 }
-li a {
+#menuBar2 {
   display: block;
   color: rgb(172, 224, 255);
   text-align: center;
   padding: 14px 15px;
   text-decoration: none;
 }
-li a:hover {
+#menuBar2:hover {
   background-color:darkred;
 }
 /* end menubar css */
