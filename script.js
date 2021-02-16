@@ -14,7 +14,7 @@ function GreetFunction() {
     function hateWebsite() {
         alert("Judge not, lest you be judged")
     }
-        var d = new Date();
+        var d = new Date("1-1-2020");
 
 
 
