@@ -15,6 +15,7 @@ function GreetFunction() {
         alert("Judge not, lest you be judged")
     }
         var d = new Date();
+        document.getElementById("date").innerHTML = d;
 
 
 
