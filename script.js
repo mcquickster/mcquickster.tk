@@ -14,8 +14,9 @@ function GreetFunction() {
     function hateWebsite() {
         alert("Judge not, lest you be judged")
     }
+    while (1) {
         var d = new Date();
-
+    }
 
 
 
