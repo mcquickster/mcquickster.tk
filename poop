@@ -38,5 +38,5 @@
     <link rel="stylesheet" href="chrome://resources/css/text_defaults_md.css">
     <link rel="stylesheet" href="shared_vars.css">
     <div id="oneGoogleBarEndOfBody"></div>
-  </body>
+  </body> 
 </html>
