@@ -2299,7 +2299,7 @@ function GreetFunction() {
 function checkPassword(){
     var password = document.getElementById("passwordBox");
     var passwordText = password.value;
-    if(passwordText == ""){
+    if(passwordText == "rent"){
         return true;
     }
     alert("Access Denied!!!  (>_<)");
